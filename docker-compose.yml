@@ -1,0 +1,9 @@
+services:
+  api:
+    build: .
+    ports:
+      - "3333:3333"
+    volumes:
+      - ./model:/app/model
+    environment:
+      - MODEL_PATH=/app/model/model.onnx
