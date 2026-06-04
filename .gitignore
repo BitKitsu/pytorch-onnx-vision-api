@@ -1,4 +1,4 @@
-data/
+data/*food*
 model/*.pth
 model/*.data
 model/*.onnx
